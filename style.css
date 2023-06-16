@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+#banner {
+    background: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_3665,h_1609/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png) center / cover;
+    padding: 60px 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    border-bottom: 3px solid black;
+    padding-bottom: 23px;
+    border-radius: 0;
+    background: none;
+}
+
+.form-control:focus {
+    background : none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#city {
+    background: url(./city\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.border-bottom:hover{
+    border-bottom: 1px solid black !important;
+}
+.image{
+    height: 3%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hori{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
